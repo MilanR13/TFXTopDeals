@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'AvenirR';  
+    src: url('fonts/AvenirLTStd-Roman.otf') format('opentype');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirB';  
+    src: url('fonts/AvenirLTStd-Black.otf') format('opentype');
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+.hero-section {
+    background-color: #0A3030;
+    background-image: url('img/bg.png');
+    background-size: cover;
+    background-position: bottom left;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    height: 550px;
+  }
+  
+  .navbar {
+    padding: 16px;
+    background-color: transparent;
+  }
+  
+  .navbar-brand {
+    margin-right: 0;
+  }
+
+  .bttng{
+    width: 126px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #27D374;
+  }
+
+  .bttnf{
+    color: #FFF;
+    font-family: 'AvenirB';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .bttnw{
+    width: 126px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1.5px solid #FFF;
+  }
+
+  .nav-item{
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+  }
+  
+  .hero-content {
+    padding: 20px;
+  }
+  
+  .hero-title {
+    font-family: 'AvenirB';
+    font-size: 48px;
+    color: #fff;
+  }
+  
+  .hero-paragraph {
+    color: #FFF;
+    font-family: 'AvenirR';
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    padding-top: 12px;
+  }
+  .bold{
+    font-family: 'AvenirB';
+  }
+  .green{
+    color: #27D374;
+  }
+  
+  .hero-image {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .search {
+    height: 100px;
+    margin-top: -50px;
+    position: relative;
+  }
+  .bar{
+    background-color: #FFF;
+    height: 100px;
+    box-shadow: 1px 5px 40px 8px rgba(110, 117, 136, 0.07);
+    border-radius: 10px;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ .searchit{
+  position: absolute;
+    left: 0;
+    margin-left: 32px;
+ }
+
+ .search-icon {
+  max-height: 32px;
+  max-width: 60px;
+}
+
+ .transparent-input {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.transparent-input::placeholder {
+  color: #A4A9AE;
+  font-family: Avenir;
+  font-size: 20px;
+}
+  
+  .searchbar-button {
+    position: absolute;
+    right: 0;
+    height: 76px;
+    width: 175px;
+    margin-right: 12px;
+    font-size: 24px;
+    background-color: #27D374;
+    padding-top: 20px;
+  }
+  
+  .list{
+    background-color: #F3F3F3;
+    margin-top: -50px;
+    height: auto;
+  }
+
+  .listing{
+    margin-top: 100px;
+  }
+
+  .dealcard{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 5px 40px 8px rgba(110, 117, 136, 0.07);
+    padding: 12px;
+    padding-left: 24px;
+    margin-bottom: 16px;
+  }
+
+  .dealtitle{
+    color: #0A3030;
+    font-family: 'AvenirB';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .dealbutton{
+    padding-top: 10px;
+  }
+
+  .vertical{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+  }
+
+  .info{
+    color: #242424;
+    font-family: 'AvenirR';
+    font-size: 14px;
+  }
+
+  .category{
+    color: #A4A9AE;
+    font-family: 'AvenirB';
+    font-size: 10px;
+  }
+
+  .colmin{
+    min-width: 200px;
+  }
+
+  .flag{
+    max-height: 16px;
+  }
+
+  .finddeals{
+    border-radius: 10px;
+    background: #0A3030;
+    margin-top: 100px;
+    background-image: url('img/smallbg.png');
+    background-size: cover;
+    background-position: top right;
+    background-size: 300px;
+    background-repeat: no-repeat;
+  }
+
+  .findp1{
+    color: #FFF;
+    font-family: 'AvenirB';
+    font-size: 20px;
+    line-height: 120%; 
+  }
+
+  .findp2{
+    color: #FFF;
+    font-family: 'AvenirR';
+    font-size: 14px;
+  }
+
+  .bttnfd{
+    width: 180px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #27D374;
+  }
+  .fdbody{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding: 16px;
+    
+  }
+
+  @media (max-width: 767px) {
+    .hero-section {
+      height: 450px;
+    }
+
+    .hero-image {
+      display: none;
+    }
+
+    .hero-paragraph {
+      font-size: 16px;}
+
+    .search {
+      height: auto;
+    }
+
+    .search-text::before {
+      content: "Search deals...";
+    }
+
+    .dealcard{
+      padding-left: 0px;
+    }
+
+    .secondr{
+      padding-left: 24px;
+    }
+
+    .finddeals{
+      margin-top: 0px;
+      background-image: none;
+    }
+  }
